@@ -1,12 +1,15 @@
-{ "name": "xkcd-z-password-nobadwords",
-  "version": "0.0.0",
+{
+  "name": "xkcd-z-password-nobadwords",
+  "version": "1.0.0",
   "description": "efficient XKCD-z-password with badword removal",
   "main": "xkcd-nobad-password.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZaneHannanAU/xkcd-z-password-nobad.git" },
+    "url": "git+https://github.com/ZaneHannanAU/xkcd-z-password-nobad.git"
+  },
   "keywords": [
     "xkcd-password",
     "password",
@@ -14,11 +17,15 @@
     "words",
     "generator",
     "badwords",
-    "nobadwords" ],
+    "nobadwords"
+  ],
   "author": "zanehannanau",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ZaneHannanAU/xkcd-z-password-nobad/issues" },
+    "url": "https://github.com/ZaneHannanAU/xkcd-z-password-nobad/issues"
+  },
   "homepage": "https://github.com/ZaneHannanAU/xkcd-z-password-nobad#readme",
   "dependencies": {
-    "xkcd-z-password": "^2.2.0" } }
+    "xkcd-z-password": "^2.2.0"
+  }
+}
