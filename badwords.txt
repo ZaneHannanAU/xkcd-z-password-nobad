@@ -1,0 +1,20 @@
+# Newline separated badwords filter using Regular expressions
+assh.*
+bitch.*
+chink
+cunt.*
+daygo
+dick.*
+douche
+fag.*
+fatass
+lesb.*
+nigg.*
+puss(y|ies)
+retard
+shemale
+shit.*
+skank.*
+slut.*
+wetback
+whore.*
