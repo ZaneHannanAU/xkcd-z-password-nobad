@@ -1,6 +1,6 @@
 {
   "name": "xkcd-z-password-nobadwords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "efficient XKCD-z-password with badword removal",
   "main": "xkcd-nobad-password.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/ZaneHannanAU/xkcd-z-password-nobad#readme",
   "dependencies": {
-    "xkcd-z-password": "^2.2.0"
+    "xkcd-z-password": "^2.2.2"
   }
 }

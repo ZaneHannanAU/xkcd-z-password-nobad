@@ -32,6 +32,7 @@ class Badwords extends EventEmitter {
       }
     }
     this.emit('update', this)
+    this.emit('ready', this)
   }
   test(tx) {
     return this.re.test(tx)
@@ -41,11 +42,12 @@ class Badwords extends EventEmitter {
 module.exports = exports = ({
   numWords = 4, minLength = 5, maxLength = 8, badwords = new Badwords(),
   filter = s => s.length >= minLength && s.length <= maxLength,
+  wordList, wordFileZ, wordFile, caseSensitive, readableinputs
 } = {}) => xkcdPassword.init({
-  numWords, minLength, maxLength,
-  filter(word) {
+  numWords, minLength, maxLength, filter(word) {
     return filter(word) && !badwords.test(word)
-  }
+  },
+  wordList, wordFileZ, wordFile, caseSensitive, readableinputs
 });
 
 exports.Badwords = Badwords;
