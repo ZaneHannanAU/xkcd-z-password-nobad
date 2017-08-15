@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/ZaneHannanAU/xkcd-z-password-nobad#readme",
   "dependencies": {
-    "xkcd-z-password": "^2.2.2"
+    "xkcd-z-password": "^2.3.0"
   }
 }
