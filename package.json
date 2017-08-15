@@ -1,6 +1,6 @@
 {
   "name": "xkcd-z-password-nobadwords",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "efficient XKCD-z-password with badword removal",
   "main": "xkcd-nobad-password.js",
   "scripts": {
